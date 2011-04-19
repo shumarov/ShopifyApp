@@ -10,24 +10,8 @@ class HomeController < ApplicationController
   
   def index
     
-    # get 3 products
-    #@products = ShopifyAPI::Product.find(:all, :params => {:limit => 30})
-
-    # get latest 3 orders
-    #@orders   = ShopifyAPI::Order.find(:all, :params => {:limit => 3, :order => "created_at DESC" })
-  end
-  
-  def ShowSomeStuff
-    
-    itemS = Item.new
-    
-    itemS.name = "Request:" + Time.now.to_s + "OLOLO TROLOLO!!!"
-    
-    itemS.save
-    
-    @items = Item.all
-    
-    render(:partial=>'somestuff') 
+    @products = ShopifyAPI::Product.find(:all, :params => {:limit => 30})
+    @orders   = ShopifyAPI::Order.find(:all, :params => {:limit => 3, :order => "created_at DESC" })
   
   end
 end
