@@ -1,0 +1,32 @@
+<!-- conntent that will appear after install application and after login from shopify shop admin area -->
+
+<div class="box">
+  <div class="wrapper"><h2 class="orange">For install "add to wishlist" button, please add this code on you product pages</h2></div>
+</div>
+<div>
+<textarea rows=6 cols=80>
+<a href="http://lil-pea.wishpot.com/" 
+class="wishpot_button"
+data-wishpot-sku="{{product.id}}"
+>
+<img border="0" src="http://www.wishpot.com/img/buttons/addtoregistry139px26px.png" alt="Add to Baby Registry" />
+</a>
+</textarea>
+</div>
+<div class="box">
+  <div class="wrapper"><h2 class="orange">This code will go at the bottom of the template</h2></div>
+</div>
+<textarea rows=6 cols=80>
+<script type="text/javascript">
+  var WISHPOT_BTN_CFG = {"host": "www.wishpot.com", "pkey": "shopify", "pchannel":"", "dialogTitle": ""};
+  (function() {
+    var wpjs = document.createElement('script'); wpjs.type = 'text/javascript'; wpjs.async = true;
+    wpjs.src = (location.protocol=='https:'?'https':'http')+'://'+WISHPOT_BTN_CFG.host+'/scripts/wishpot_button.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wpjs, s);
+  })();
+</script>
+</textarea>
+
+
+
+

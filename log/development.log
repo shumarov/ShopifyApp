@@ -1,0 +1,2656 @@
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-12 18:08:11) [GET]
+
+NoMethodError (undefined method `shopify_session' for #<HomeController:0x2ad0920>):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:09:09) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-12 18:11:59) [GET]
+
+NoMethodError (undefined method `shopify_session' for #<HomeController:0x2e98978>):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-12 18:19:16) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2ae0358 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 359ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-12 18:19:17) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-12 18:19:49) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f36d00 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-12 18:19:50) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-12 18:22:38) [POST]
+  Parameters: {"shop"=>"https://russel-quigley4902.myshopify.com/", "commit"=>"Install", "authenticity_token"=>"AndSFpUSgn2phWyj+L/Mz9+hUGtMaFCegIHhrU/BIJ4="}
+Redirected to http://russel-quigley4902.myshopify.com//admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:23:10) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302621934", "signature"=>"9e8932ce0c09425ec445d322e0771b4b", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:24:27) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302621998", "signature"=>"04a73c04d3cba39b2445906d62447a76", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:24:59) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302621998", "signature"=>"04a73c04d3cba39b2445906d62447a76", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:39:12) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302621998", "signature"=>"04a73c04d3cba39b2445906d62447a76", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 18:43:14) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302623128", "signature"=>"d589e787d0528cd7ee84b499ce41c55b", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 19:09:12) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 11:49:40) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 11:57:39) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2fa3720 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 266ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:57:39) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 11:57:48) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2ee7878 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:57:48) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 11:57:51) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2e6b768 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:57:51) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 11:57:52) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2df0990 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:57:52) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 62ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 11:57:53) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d73c50 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:57:53) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 11:58:07) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2cf6c58 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:58:07) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 11:58:10) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2c5b780 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:58:10) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 11:58:11) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f96fb8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:58:11) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 11:58:13) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f12058 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 11:58:13) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 12:16:03) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686295", "signature"=>"cf6bdce06bb7f3707c0095cc9aa0e276", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+
+ActionController::RoutingError (No route matches "/install_test_app" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:18:52) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2e532b8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:18:52) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 12:18:58) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:19:03) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d974b8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:19:03) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 12:19:10) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d19cc8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:19:10) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:20:05) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2c7f888 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:20:05) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:20:31) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:20:39) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:24:21) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686794", "signature"=>"fbf46bc03947cde676bbd88f6a682d69", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f928d8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=fbf46bc03947cde676bbd88f6a682d69&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686794]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:24:21) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:24:45) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686818", "signature"=>"c3990f7a3a3c5f256a54c992672e2b4e", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f0b4d0 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&timestamp=1302686818&signature=c3990f7a3a3c5f256a54c992672e2b4e&t=e96974737f2fd81040e9c4d7e252e21b]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:24:45) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:26:32) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2e8dd28 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:26:32) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:27:15) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2e122c0 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:27:15) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:27:30) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d97200 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:27:30) [GET]
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:28:08) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d19950 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:28:08) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:29:00) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2c7fa98 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:29:00) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:29:58) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d481e0 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:29:58) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:31:05) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302686914", "signature"=>"5af1fcccfb232f1cd3691f4b9c9db6f9", "t"=>"e96974737f2fd81040e9c4d7e252e21b"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2f72490 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/?shop=russel-quigley4902.myshopify.com&signature=5af1fcccfb232f1cd3691f4b9c9db6f9&t=e96974737f2fd81040e9c4d7e252e21b&timestamp=1302686914]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:31:05) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:36:22) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2ef0ab8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:36:22) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-13 12:36:27) [GET]
+
+RuntimeError (Invalid Signature: Possible malicious login):
+  E:/Rails/Ruby/lib/ruby/gems/1.8/gems/shopify_api-1.2.2/lib/shopify_api.rb:136:in `initialize'
+  app/controllers/login_controller.rb:26:in `new'
+  app/controllers/login_controller.rb:26:in `finalize'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:41:35) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2d66060 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 12:41:35) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-13 12:41:42) [POST]
+  Parameters: {"shop"=>"https://russel-quigley4902.myshopify.com/", "commit"=>"Install", "authenticity_token"=>"Osdags0Lyu4xxKzskuyYatiomXPzFQ2RNUO4JCSzMf8="}
+Redirected to http://russel-quigley4902.myshopify.com//admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-13 12:42:13) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302687874", "signature"=>"81b08be33e9b01fa127d8c1cdbbabc1a", "t"=>"26689f1ac6903ad661e217326bf30b52"}
+Redirected to http://127.0.0.1:3000/
+Completed in 125ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=russel-quigley4902.myshopify.com&timestamp=1302687874&signature=81b08be33e9b01fa127d8c1cdbbabc1a&t=26689f1ac6903ad661e217326bf30b52]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:42:13) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13828ms (View: 6703, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:44:13) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9094ms (View: 4734, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-13 12:44:59) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302688030", "signature"=>"b2c345313f38bbcb958a873ae306d79b", "t"=>"26689f1ac6903ad661e217326bf30b52"}
+Redirected to http://127.0.0.1:3000/
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=russel-quigley4902.myshopify.com&signature=b2c345313f38bbcb958a873ae306d79b&t=26689f1ac6903ad661e217326bf30b52&timestamp=1302688030]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 12:44:59) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8453ms (View: 4328, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 12:49:43) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 13:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 14:49:49) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 16:04:52) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 16:15:08) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22625ms (View: 6672, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 16:15:53) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 250ms (View: 250, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 16:16:22) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8781ms (View: 4719, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 17:04:55) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:13:32) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8453ms (View: 3594, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:13:54) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17734ms (View: 7062, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:20:05) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8906ms (View: 4438, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:20:14) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7328ms (View: 3688, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:21:50) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8125ms (View: 4156, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:27:37) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14188ms (View: 10078, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:32:35) [GET]
+BABULYA V BERCAH!!!
+
+ActiveResource::ServerError (Failed with 502 Bad Gateway):
+  app/controllers/home_controller.rb:16:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:32:44) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:37:00) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11344ms (View: 4250, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:49:44) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9625ms (View: 4516, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:50:26) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9109ms (View: 4641, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:51:57) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7453ms (View: 3500, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 17:52:34) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9062ms (View: 4734, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 18:04:12) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 18:04:13) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11031ms (View: 6406, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 18:19:58) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 18:30:19) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11703ms (View: 5906, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 18:44:25) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-13 18:44:25) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 18:47:22) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9641ms (View: 4688, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 19:35:01) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 19:37:08) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8297ms (View: 3438, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2011-04-13 19:38:00) [GET]
+Redirected to http://127.0.0.1:3000/login
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/login/logout]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 19:38:00) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 328ms (View: 328, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 19:38:06) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3986688 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 19:38:06) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-13 19:38:14) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3bdaf80 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-13 19:38:15) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-13 20:35:04) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 12:35:58) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3740238 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 375ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-14 12:35:59) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-14 12:42:11) [POST]
+  Parameters: {"shop"=>"https://russel-quigley4902.myshopify.com/", "commit"=>"Install", "authenticity_token"=>"qOhggKfLDT3WDUX5FWaIp3ULJwzzDgM5h7ouaVFe7eg="}
+Redirected to http://russel-quigley4902.myshopify.com//admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-14 12:43:18) [GET]
+  Parameters: {"shop"=>"russel-quigley4902.myshopify.com", "timestamp"=>"1302774337", "signature"=>"83f36e4dc7fd5b268afa691a4ae87705", "t"=>"025919fda60c651282bfaa454cb65a58"}
+Redirected to http://127.0.0.1:3000/
+Completed in 62ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=russel-quigley4902.myshopify.com&timestamp=1302774337&signature=83f36e4dc7fd5b268afa691a4ae87705&t=025919fda60c651282bfaa454cb65a58]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 12:43:18) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11500ms (View: 4859, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 12:48:06) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 14:33:09) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:41:04) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:41:10) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (296.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:41:14) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:41:55) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:42:05) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:42:12) [GET]
+
+ActiveResource::BadRequest (Failed with 400 Bad Request):
+  app/controllers/home_controller.rb:14:in `index'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (281.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:42:25) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17750ms (View: 10812, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 14:42:57) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11375ms (View: 6109, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 15:48:12) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2011-04-14 15:51:47) [GET]
+Redirected to http://127.0.0.1:3000/login
+Completed in 188ms (DB: 0) | 302 Found [http://127.0.0.1/login/logout]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-14 15:51:47) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-14 15:51:51) [POST]
+  Parameters: {"shop"=>"https://tromp-sauer570.myshopify.com/", "commit"=>"Install", "authenticity_token"=>"qOhggKfLDT3WDUX5FWaIp3ULJwzzDgM5h7ouaVFe7eg="}
+Redirected to http://tromp-sauer570.myshopify.com//admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-14 15:52:22) [GET]
+  Parameters: {"shop"=>"tromp-sauer570.myshopify.com", "timestamp"=>"1302785682", "signature"=>"ed000ee51158409b843782d4fd78e05a", "t"=>"b8fec8aab14690d8452e5869b92e9307"}
+Redirected to http://127.0.0.1:3000/
+Completed in 62ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=tromp-sauer570.myshopify.com&timestamp=1302785682&signature=ed000ee51158409b843782d4fd78e05a&t=b8fec8aab14690d8452e5869b92e9307]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 15:52:22) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11281ms (View: 7422, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 16:48:13) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 17:48:16) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-14 18:00:16) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 18:00:20) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10875ms (View: 7156, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 18:03:39) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11188ms (View: 7156, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-14 18:48:19) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 19:20:39) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14250ms (View: 10656, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-14 19:21:23) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-14 19:22:00) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11375ms (View: 8203, DB: 0) | 200 OK [http://127.0.0.1/]
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-15 15:17:50) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2ae01f0 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 328ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-15 15:17:50) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 15:21:23) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-15 15:23:24) [POST]
+  Parameters: {"shop"=>"https://tromp-sauer570.myshopify.com", "commit"=>"Install", "authenticity_token"=>"qDzWZEjnQ8MPeW96j5mAUi3Gz/FDyVMfR8EfJJhe6Jw="}
+Redirected to http://tromp-sauer570.myshopify.com/admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-15 15:23:38) [GET]
+  Parameters: {"shop"=>"tromp-sauer570.myshopify.com", "timestamp"=>"1302870355", "signature"=>"e0475f5e6b34e6b4556790fc603b19ee", "t"=>"b8fec8aab14690d8452e5869b92e9307"}
+Redirected to http://127.0.0.1:3000/
+Completed in 47ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=tromp-sauer570.myshopify.com&timestamp=1302870355&signature=e0475f5e6b34e6b4556790fc603b19ee&t=b8fec8aab14690d8452e5869b92e9307]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-15 15:23:38) [GET]
+BABULYA V BERCAH!!!
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14688ms (View: 9031, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-15 16:05:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13234ms (View: 9359, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 16:05:46) [GET]
+
+ActionController::RoutingError (No route matches "/ShowSomeStuff" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:08:33) [GET]
+
+ActionView::MissingTemplate (Missing template home/_somestuff.erb in view path app/views):
+  app/controllers/home_controller.rb:21:in `ShowSomeStuff'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:08:54) [GET]
+Rendered home/_somestuff (15.6ms)
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:09:17) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:11:35) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:15:17) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:15:32) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:16:08) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:16:19) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:16:48) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:17:01) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:17:05) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 16:21:26) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:53:42) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:55:34) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:55:43) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:55:44) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:55:44) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:56:00) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:56:23) [GET]
+Rendered home/_somestuff (15.6ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:57:51) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:58:13) [GET]
+Rendered home/_somestuff (15.6ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:58:45) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 203ms (View: 188, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 16:59:37) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:23) [GET]
+Rendered home/_somestuff (15.6ms)
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:25) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:30) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:31) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:32) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:05:34) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:08:16) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:08:17) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:08:20) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:08:30) [GET]
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:09:05) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:09:07) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:10:49) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:11:08) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:11:09) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:11:45) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:11:47) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:11:48) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:12:16) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 17:12:19) [GET]
+!!!!!{"action"=>"ShowSomeStuff", "controller"=>"home"}
+Rendered home/_somestuff (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 17:36:29) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'wishlisting_2.items' doesn't exist: SHOW FIELDS FROM `items`[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'testrubydb.items' doesn't exist: SHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 18:36:34) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mMysql::Error: Column 'user_id' cannot be null: INSERT INTO `items` (`name`, `user_id`) VALUES('TROLOLO!!!', NULL)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (78.1ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (250.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (93.8ms)[0m   [0;1mDROP DATABASE IF EXISTS `testrubydb`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE DATABASE `testrubydb` DEFAULT CHARACTER SET `utf8`[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'testrubydb.items' doesn't exist: SHOW FIELDS FROM `items`[0m
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (15.6ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('TROLOLO!!!')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:45:33) [GET]
+  [4;36;1mItem Load (15.6ms)[0m   [0;1mSELECT * FROM `items` [0m
+ERROR: compiling _run_erb_app47views47home47_somestuff46html46erb_locals_object_somestuff RAISED compile error
+E:/Rails/rails_apps/TestScShopifyApp/app/views/home/_somestuff.html.erb:24: syntax error, unexpected kDO
+;  @items.each | item | do ; @output_buffer.concat "\n\t...
+                          ^
+E:/Rails/rails_apps/TestScShopifyApp/app/views/home/_somestuff.html.erb:33: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47home47_somestuff46html46erb_locals_object_somestuff(local_assigns)
+            old_output_buffer = output_buffer;somestuff = local_assigns[:somestuff];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\n\t\t<title>Untitled Document</title>\n\t</head>\n\t<body>\n\t</body>\n</html>\n<div>\n\t<form id=\"inputform\">\n\t\tName: <input type=text id=name/>\t\n\t\t<input type=submit value=\"post\" />\t\n\t</form>\n\n</div>\n<div>\n\t<table border=1>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tTable title\n\t\t\t</td>\n\t\t</tr>\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;  @items.each | item | do ; @output_buffer.concat "\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<p>"
+
+
+; @output_buffer.concat(( item.name ).to_s); @output_buffer.concat "</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t</table>\n</div>"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: E:/Rails/rails_apps/TestScShopifyApp/app/views/home/_somestuff.html.erb:33:in `compile!'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/renderable.rb:61:in `compile'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/renderable.rb:28:in `render'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/renderable_partial.rb:20:in `render'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:26:in `benchmark'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:26:in `benchmark'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/renderable_partial.rb:19:in `render'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/template.rb:205:in `render_template'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/renderable_partial.rb:44:in `render_partial'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/partials.rb:184:in `render_partial'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_view/base.rb:267:in `render'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:964:in `render_without_benchmark'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:51:in `render'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:51:in `render'
+E:/Rails/rails_apps/TestScShopifyApp/app/controllers/home_controller.rb:24:in `ShowSomeStuff'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `send'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:617:in `call_filters'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:638:in `run_before_filters'
+E:/Rails/rails_apps/TestScShopifyApp/lib/shopify_login_protection.rb:8:in `shopify_session'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/callbacks.rb:178:in `send'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/callbacks.rb:178:in `evaluate_method'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:186:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:635:in `run_before_filters'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:615:in `call_filters'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.10/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/flash.rb:151:in `perform_action'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `send'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:532:in `process_without_filters'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/filters.rb:606:in `process'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:391:in `process'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/base.rb:386:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/routing/route_set.rb:438:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:87:in `dispatch'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:121:in `_call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:29:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:114:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/reloader.rb:34:in `run'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:108:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/rack/static.rb:31:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/rack/log_tailer.rb:17:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+E:/Rails/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/commands/server.rb:111
+E:/Rails/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+E:/Rails/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+./script/server:3
+-e:2:in `load'
+-e:2
+
+ActionView::TemplateError (compile error
+E:/Rails/rails_apps/TestScShopifyApp/app/views/home/_somestuff.html.erb:24: syntax error, unexpected kDO
+;  @items.each | item | do ; @output_buffer.concat "\n\t...
+                          ^
+E:/Rails/rails_apps/TestScShopifyApp/app/views/home/_somestuff.html.erb:33: syntax error, unexpected kENSURE, expecting $end) on line #24 of app/views/home/_somestuff.html.erb:
+21: 				Table title
+22: 			</td>
+23: 		</tr>
+24: 		<% @items.each | item | do %>
+25: 		<tr>
+26: 			<td>
+27: 				<p><%= item.name %></p>
+
+    app/views/home/_somestuff.html.erb:33:in `compile!'
+    app/controllers/home_controller.rb:24:in `ShowSomeStuff'
+    lib/shopify_login_protection.rb:8:in `shopify_session'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:46:32) [GET]
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+  [4;36;1mItem Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+Rendered home/_somestuff (15.6ms)
+Completed in 125ms (View: 47, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:25) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:25 +0300 2011')[0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 47ms (View: 0, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:27) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:27 +0300 2011')[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 0, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:30) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:30 +0300 2011')[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:30) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:30 +0300 2011')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:31) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:31 +0300 2011')[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 281ms (View: 47, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:31) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:31 +0300 2011')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 109ms (View: 16, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:31) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:31 +0300 2011')[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:31) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:31 +0300 2011')[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 94ms (View: 31, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:32) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:32 +0300 2011')[0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 94ms (View: 31, DB: 47) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:33) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:33 +0300 2011')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:34) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:34 +0300 2011')[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 62ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:49:50) [GET]
+  [4;36;1mItem Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:49:50 +0300 2011')[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 78ms (View: 0, DB: 47) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 18:58:00) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (31.2ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 18:58:00 +0300 2011')[0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 94ms (View: 16, DB: 62) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-15 19:19:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13672ms (View: 7578, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:19:36) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+
+NameError (uninitialized constant HomeController::Request):
+  app/controllers/home_controller.rb:23:in `ShowSomeStuff'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:20:06) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (15.6ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:')[0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 188ms (View: 125, DB: 47) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:22:49) [GET]
+  [4;36;1mItem Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (15.6ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:')[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (0.0ms)
+Completed in 141ms (View: 0, DB: 78) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 19:51:36) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:54:26) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+
+NoMethodError (private method `now' called for Date:Class):
+  app/controllers/home_controller.rb:24:in `ShowSomeStuff'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (328.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:54:49) [GET]
+  [4;36;1mItem Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+
+NoMethodError (undefined method `Now' for Date:Class):
+  app/controllers/home_controller.rb:24:in `ShowSomeStuff'
+  lib/shopify_login_protection.rb:8:in `shopify_session'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:55:13) [GET]
+  [4;35;1mItem Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 19:55:13 +0300 2011')[0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mItem Load (0.0ms)[0m   [0mSELECT * FROM `items` [0m
+Rendered home/_somestuff (15.6ms)
+Completed in 62ms (View: 16, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-15 19:55:22) [GET]
+  [4;36;1mItem Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO `items` (`name`) VALUES('Request:Fri Apr 15 19:55:22 +0300 2011')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mItem Load (0.0ms)[0m   [0;1mSELECT * FROM `items` [0m
+Rendered home/_somestuff (15.6ms)
+Completed in 125ms (View: 16, DB: 31) | 200 OK [http://127.0.0.1/home/ShowSomeStuff]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-15 20:51:39) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 12:48:13) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-18 12:48:48) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2aedbb8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 328ms (DB: 0) | 302 Found [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 12:48:49) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 13:48:15) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 14:30:37) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ShowSomeStuff (for 127.0.0.1 at 2011-04-18 14:30:55) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3c39030 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/ShowSomeStuff]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 14:30:55) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-18 14:31:09) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3bca048 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 14:31:09) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-18 14:31:11) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3b5abb0 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 16) | 302 Found [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 14:31:11) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 14:48:18) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-18 14:55:15) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3aa49a8 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-18 14:55:15) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 15:48:21) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 16:48:24) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-18 18:03:28) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+[Shopify App] Loading API credentials from config/shopify.yml
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:21:40) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x37af328 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 344ms (DB: 0) | 302 Found [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 11:21:41) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:22:53) [GET]
+
+NoMethodError (undefined method `path' for nil:NilClass):
+  app/controllers/home_controller.rb:14:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:23:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:24:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-19 11:25:14) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:33:35) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3a07628 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 11:33:35) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 11:37:22) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-19 11:39:45) [GET]
+  Parameters: {"shop"=>"tromp-sauer570.myshopify.com", "timestamp"=>"1303202502", "signature"=>"3783edd0bf87379a5ecc0dc562c47a07", "t"=>"b8fec8aab14690d8452e5869b92e9307"}
+Redirected to http://127.0.0.1:3000/
+Completed in 62ms (DB: 16) | 302 Found [http://127.0.0.1/login/finalize?shop=tromp-sauer570.myshopify.com&signature=3783edd0bf87379a5ecc0dc562c47a07&t=b8fec8aab14690d8452e5869b92e9307&timestamp=1303202502]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:39:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:42:24) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:43:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:43:49) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:44:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:45:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:45:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:45:54) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:46:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:46:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:46:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:46:23) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:46:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:47:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:47:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:48:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 188, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:48:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 156ms (View: 156, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:48:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:48:40) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:51:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:53:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:53:55) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:53:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:53:57) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:54:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:54:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:54:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 234ms (View: 219, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:55:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:55:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:55:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:56:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:56:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:56:42) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:56:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:58:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:58:09) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:59:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 11:59:15) [GET]
+Rendering template within layouts/application
+Rendering home/design
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 11:59:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:01:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:01:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:02:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:02:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:02:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 344ms (View: 344, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:03:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 297ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2011-04-19 12:03:10) [GET]
+Redirected to http://127.0.0.1:3000/login
+Completed in 0ms (DB: 16) | 302 Found [http://127.0.0.1/login/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:03:10) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:03:17) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:03:20) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:06:17) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:06:18) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:06:18) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:10:36) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:11:04) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:11:26) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 188ms (View: 188, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:12:52) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:14:16) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#design (for 127.0.0.1 at 2011-04-19 12:15:20) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3b6c778 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 16) | 302 Found [http://127.0.0.1/home/design]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:15:20) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:15:23) [GET]
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x3afd010 @kind=:filter, @options={:except=>#<Set: {"welcome"}>}, @method=:shopify_session, @identifier=nil>] did_not_yield.
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:15:23) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#authenticate (for 127.0.0.1 at 2011-04-19 12:16:11) [POST]
+  Parameters: {"shop"=>"https://tromp-sauer570.myshopify.com/", "commit"=>"Install", "authenticity_token"=>"doLyJXZ4qwNJNj9T+MGqDNurOSD2bv7fDSGDUw2lAEU="}
+Redirected to http://tromp-sauer570.myshopify.com//admin/api/auth?api_key=1985e2a308792b4545e9606494c9b2dd
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/login/authenticate]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#finalize (for 127.0.0.1 at 2011-04-19 12:16:35) [GET]
+  Parameters: {"shop"=>"tromp-sauer570.myshopify.com", "timestamp"=>"1303204722", "signature"=>"8764a5ccc73f017436cd902d23951cf7", "t"=>"7beaa150ad852e6304091dee88d694c4"}
+Redirected to http://127.0.0.1:3000/
+Completed in 0ms (DB: 0) | 302 Found [http://127.0.0.1/login/finalize?shop=tromp-sauer570.myshopify.com&timestamp=1303204722&signature=8764a5ccc73f017436cd902d23951cf7&t=7beaa150ad852e6304091dee88d694c4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 12:16:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 16) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2011-04-19 12:22:51) [GET]
+Redirected to http://127.0.0.1:3000/login
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/login/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LoginController#index (for 127.0.0.1 at 2011-04-19 12:22:51) [GET]
+asdasdasdasd
+Rendering template within layouts/application
+Rendering login/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-19 12:25:17) [GET]
+
+ActionController::RoutingError (No route matches "/all_rss/wl_wishpot_test" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
